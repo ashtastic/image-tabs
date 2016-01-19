@@ -49,3 +49,7 @@ body {
   border-radius: 100%;
   display: inline-block;
 }
+
+.toggle:hover {
+  background: grey;
+}
