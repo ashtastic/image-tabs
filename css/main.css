@@ -20,12 +20,32 @@ body {
   margin: 0;
 }
 
-.images {
-  position: relative;
+.panel {
+  display: none;
+  text-align: center;
 }
 
-.image-0, .image-1, .image-2, .image-3, .image-4 {
-  position: absolute;
-  width: 100%;
-  left: 0;
+.panel:target {
+  display: block;
+}
+
+.tabs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  top: 320px;
+  position: fixed;
+  right: 43.5%;
+}
+
+.tabs > li {
+  display: inline-block;
+}
+
+.toggle {
+  height: 15px;
+  width: 15px;
+  border: 4px grey solid;
+  border-radius: 100%;
+  display: inline-block;
 }
